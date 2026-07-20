@@ -1,0 +1,60 @@
+# ==============================
+# PRIVATE / SECRET FILES
+# ==============================
+.env
+.env.*
+*.env
+.streamlit/secrets.toml
+secrets.toml
+credentials.json
+*.key
+*.pem
+
+# ==============================
+# VIRTUAL ENVIRONMENTS
+# ==============================
+venv/
+.venv/
+env/
+
+# ==============================
+# PYTHON
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==============================
+# JUPYTER
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# IDE / EDITOR
+# ==============================
+.vscode/
+.idea/
+
+# ==============================
+# MACOS
+# ==============================
+.DS_Store
+
+# ==============================
+# LOGS / TEMP FILES
+# ==============================
+*.log
+*.tmp
+*.bak
+
+# ==============================
+# OPTIONAL PRIVATE LOCAL FILES
+# Uncomment ONLY if you do not
+# need these files for deployment
+# ==============================
+
+# data/
+# models/models/*.pkl
+models/*.keras
+models/*.pkl
+models/*.keras
